@@ -45,8 +45,6 @@ def main(args):
     # Model selection
     if model_name == 'JointModel':
         model = JointModel(wandb.config, dataset_name, 'Weighted_XMY')
-    # elif model_name == 'OtherModel':  # Placeholder for future models
-    #     model = OtherModel(wandb.config, dataset_name, 'Weighted_XMY')
     else:
         raise ValueError(f"Model '{model_name}' not recognized")
 
@@ -64,7 +62,6 @@ if __name__ == "__main__":
     parser.add_argument("--p_value", type=float, required=True, help="Percentage of explicit data to be removed")
     parser.add_argument("--lr_M", type=float, required=True, help="Learning rate of U and V")
     parser.add_argument("--lr_ae", type=float, required=True, help="Learning rate of user/item autoencoders")
-    #parser.add_argument("--num_layer", type=int, required=True, help="Number of autoencoder layer")
     parser.add_argument("--step", type=int, required=True, help="Step size")
     parser.add_argument("--latent_side_info", type=int, required=True, help="Latent Side Info")
     parser.add_argument("--latent_M", type=int, required=True, help="Latent M")
