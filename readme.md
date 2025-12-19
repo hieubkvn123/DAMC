@@ -1,6 +1,6 @@
-# Implicit Feedback Recommendation System
+# Code for "Generalization Bounds for Semi-supervised Matrix Completion with Distributional Side Information" 
 
-This project, `implicit_feedback_recsys`, is focused on building and testing recommendation systems that leverage implicit feedback data. The core of the project is the `JointModel`, a machine learning model designed to handle various types of implicit feedback.
+This project, "Generalization Bounds for Semi-supervised Matrix Completion with Distributional Side Information", is focused on building and testing recommendation systems that leverage implicit feedback data. The core of the project is the `JointModel`, a machine learning model designed to handle various types of implicit feedback.
 
 ## Directory Structure
 
