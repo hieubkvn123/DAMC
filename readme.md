@@ -61,3 +61,14 @@ python main.py --dataset "ml-100k" --p_value 0.2 --step 1000 --latent_side_info 
 - **Testing**: The testing instructions are fairly standard for Python projects using pytest. If your project has specific requirements or setups for testing, include those details in this section.
 
 This expanded README provides clear instructions for users on how to run models and execute tests, enhancing the usability and accessibility of your project.
+
+## Citation
+```bibtex
+@inproceedings{Ledent2026MCImplicit,
+    author = {Antoine Ledent and Mun Chong Soo and Nong Minh Hieu},
+    title = {Generalization Bounds for Semi-supervised Matrix Completion with Distributional Side Information},
+    year = {2026},
+    booktitle = {AAAI Conference on Artificial Intelligence}
+}
+```
+
