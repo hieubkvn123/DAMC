@@ -9,7 +9,7 @@ $$
 where $G$ is a ground-truth matrix with partially-observed entries (e.g., ratings), given:
 
 - 1. **Unlabeled data**: A large set of user-item pairs $(i, j)$ drawn from an unknown sampling distribution $P$ without observing the ratings. These correspond to _implicit feedback_.
-- 2. **Labeled data**: A much smaller set of pairs $(i, j)$ with observed noisy labels $\widetilde G_{i,j}$.
+- 2. **Labeled data**: A much smaller set of pairs $(i, j)$ with observed noisy labels $\widetilde G_{i,j}$. These correspond to _explicit feedback_.
 
 
 ## Directory Structure
