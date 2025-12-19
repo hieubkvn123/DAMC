@@ -31,7 +31,7 @@ To get started with this project, clone the repository and install the required 
 
 ```bash
 git clone <repository-url>
-cd implicit_feedback_recsys
+cd DAMC 
 pip install -r requirements.txt
 ```
 
