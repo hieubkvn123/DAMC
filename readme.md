@@ -1,6 +1,16 @@
 # Experiments for "Generalization Bounds for Semi-supervised Matrix Completion with Distributional Side Information" 
 
-This project, "Generalization Bounds for Semi-supervised Matrix Completion with Distributional Side Information", is focused on building and testing recommendation systems that leverage implicit feedback data. The core of the project is the `JointModel`, a machine learning model designed to handle various types of implicit feedback.
+This project, "Generalization Bounds for Semi-supervised Matrix Completion with Distributional Side Information", is focused on building and testing recommendation systems that leverage implicit feedback data. The task is the learn a predictor:
+
+$$
+\mathbb{R}^{m\times n}\ni \widehat Z\approx G,
+$$ 
+
+where $G$ is a ground-truth matrix with partially-observed entries (e.g., ratings), given:
+
+- 1. **Unlabeled data**: A large set of user-item pairs $(i, j)$ drawn from an unknown sampling distribution $P$ without observing the ratings. These correspond to _implicit feedback_.
+- 2. **Labeled data**: A much smaller set of pairs $(i, j)$ with observed noisy labels $\widetilde G_{i,j}$.
+
 
 ## Directory Structure
 
